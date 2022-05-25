@@ -8,14 +8,14 @@ import Stat from './Stat';
 
 const Home = () => {
     return (
-        // <div className='mx-auto'>
-        //     <Slider/>
-        //     <Introduction/>
-        //     <Parts/>
-        //     <Review/>
-        //     <Stat/>
-        //     {/* <Footer/> */}
-        // </div>
+        <div className='mx-auto'>
+            <Slider/>
+            <Introduction/>
+            <Parts/>
+            <Review/>
+            <Stat/>
+            {/* <Footer/> */}
+        </div>
     );
 };
 
