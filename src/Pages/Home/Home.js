@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../Share/Footer/Footer';
+// import Footer from '../Share/Footer/Footer';
 import Introduction from './Introduction';
 import Parts from './Parts';
 import Review from './Review';
@@ -8,13 +8,13 @@ import Stat from './Stat';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='mx-auto'>
             <Slider/>
             <Introduction/>
             <Parts/>
             <Review/>
             <Stat/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 };

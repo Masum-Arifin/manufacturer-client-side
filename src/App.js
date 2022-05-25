@@ -20,6 +20,7 @@ import ManageProducts from './Pages/Dashboard/ManageProducts';
 import SeeAll from './Pages/Home/SeeAll';
 import Blog from './Pages/Other/Blog';
 import Portfolio from './Pages/Other/Portfolio';
+import Footer from './Pages/Share/Footer/Footer';
 
 function App() {
   return (
@@ -57,10 +58,10 @@ function App() {
           <Booking></Booking>
         </RequireAuth>
       }></Route>
-
+        
       <Route path="*" element={<NotFound/>}></Route>
       </Routes>
-     
+         <Footer></Footer>
       <ToastContainer />
     </div>
 

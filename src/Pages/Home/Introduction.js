@@ -4,10 +4,10 @@ import tools from "../../images/desktop-tool.png";
 
 const Introduction = () => {
   return (
-    <div>
+    <div className="mx-auto">
       {/* middle text */}
-      <div className="text-center">
-        <h1 className="text-5xl  mt-24 italic border-b-8 border-r- rounded-full border- inline-block mx-auto pb-4 pr-2 font-bold">
+      <div className="text-center mx-auto">
+        <h1 className="text-2xl lg:text-5xl  mt-24 italic border-b-8 border-r- rounded-full border- inline-block mx-auto pb-4 pr-2 font-bold">
           {" "}
           WelCome to all PC Parts Center
         </h1>
@@ -15,7 +15,7 @@ const Introduction = () => {
       {/* info with hero */}
       <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row">
-          <img src={tools} className="w-50 rounded-lg " alt="info pic" />
+          <img src={tools} className="w-100 rounded-lg " alt="info pic" />
           <div>
             <h1 className="text-4xl font-bold text-secondary">
               PC Parts Information !
@@ -35,7 +35,7 @@ const Introduction = () => {
               it when you feel the satisfaction of sitting back and looking at
               the finished product.
             </p>
-            <Link to="/seeAll" className="btn btn-primary">
+            <Link to="/seeAll" className="btn  text-white">
               SEE ALL PARTS
             </Link>
           </div>
