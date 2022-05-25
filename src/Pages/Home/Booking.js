@@ -60,93 +60,93 @@ const Booking = () => {
       });
   };
   return (
-    // <div className="hero min-h-screen bg-base-100">
-    //   <div className="hero-content flex-col lg:flex-row">
-    //     <img
-    //       src={parts.img}
-    //       className="w-100 rounded-ful shadow-2xl"
-    //       alt={parts.img}
-    //     />
-    //     <div className="mx-auto">
-    //       {/* form part */}
-    //       <form onSubmit={handleOrder} className="text-center mx-auto">
-    //         <input
-    //           type="text"
-    //           value={parts.name}
-    //           className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
-    //           readOnly
-    //           disabled
-    //           name="name"
-    //         />
-    //         <br />
-    //         <input
-    //           type="text"
-    //           value={user.displayName}
-    //           className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
-    //           readOnly
-    //           disabled
-    //           name="username"
-    //         />
-    //         <br />
-    //         <input
-    //           type="email"
-    //           value={user.email}
-    //           className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
-    //           readOnly
-    //           disabled
-    //           name="email"
-    //         />
-    //         <br />
+    <div className="hero min-h-screen bg-base-100">
+      <div className="hero-content flex-col lg:flex-row">
+        <img
+          src={parts.img}
+          className="w-100 rounded-ful shadow-2xl"
+          alt={parts.img}
+        />
+        <div className="mx-auto">
+          {/* form part */}
+          <form onSubmit={handleOrder} className="text-center mx-auto">
+            <input
+              type="text"
+              value={parts.name}
+              className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
+              readOnly
+              disabled
+              name="name"
+            />
+            <br />
+            <input
+              type="text"
+              value={user.displayName}
+              className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
+              readOnly
+              disabled
+              name="username"
+            />
+            <br />
+            <input
+              type="email"
+              value={user.email}
+              className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
+              readOnly
+              disabled
+              name="email"
+            />
+            <br />
 
-    //         <input
-    //           type="number"
-    //           className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
-    //           placeholder="Total 000 tk"
-    //           name="price"
-    //           value={price}
-    //           readOnly
-    //           disabled
-    //           required
-    //         />
-    //         <br />
+            <input
+              type="number"
+              className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
+              placeholder="Total 000 tk"
+              name="price"
+              value={price}
+              readOnly
+              disabled
+              required
+            />
+            <br />
 
-    //         <input
-    //           onKeyUp={quantityKeyUp}
-    //           ref={quantityRef}
-    //           type="number"
-    //           className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
-    //           placeholder="Quantity"
-    //           name="quantity"
-    //           required
-    //         />
-    //         <br />
+            <input
+              onKeyUp={quantityKeyUp}
+              ref={quantityRef}
+              type="number"
+              className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
+              placeholder="Quantity"
+              name="quantity"
+              required
+            />
+            <br />
 
-    //         <input
-    //           type="text"
-    //           className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
-    //           placeholder="Phone Number"
-    //           name="phone"
-    //         />
-    //         <br />
+            <input
+              type="text"
+              className="font-bold input input-bordered input-info w-full max-w-xs mb-2"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <br />
 
-    //         <textarea
-    //           className="font-bold input input-bordered input-info w-full max-w-xs"
-    //           placeholder="Your Company Location"
-    //           name="address"
-    //           cols="30"
-    //           rows="10"
-    //         ></textarea>
+            <textarea
+              className="font-bold input input-bordered input-info w-full max-w-xs"
+              placeholder="Your Company Location"
+              name="address"
+              cols="30"
+              rows="10"
+            ></textarea>
 
-    //         <input
-    //           type="submit"
-    //           className="btn w-full max-w-xs"
-    //           value="CONFIRM"
-    //         />
-    //       </form>
-    //     </div>
-    //   </div>
-    //   <ToastContainer />
-    // </div>
+            <input
+              type="submit"
+              className="btn w-full max-w-xs"
+              value="CONFIRM"
+            />
+          </form>
+        </div>
+      </div>
+      <ToastContainer />
+    </div>
   );
 };
 
