@@ -5,13 +5,19 @@ Project - PC Doctor
 future
 `
 
-daynamic navbar
-awesome landing page
-user friendly ui
-website banner
-firebase authentication
-daynamic routing
-admin panel
+daynamic navbar,
+
+awesome landing page,
+
+user friendly ui,
+
+website banner,
+
+firebase authentication,
+
+daynamic routing,
+
+admin panel.
 `
 
 What technology or assets I have used for building this website.
