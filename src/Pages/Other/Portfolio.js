@@ -48,7 +48,7 @@ const Portfolio = () => {
                   <td>CSS</td>
                   <td>Bootstrap, Tailwind</td>
                   <td>6 Month</td>
-                  <td>https://assignment-11-solve-link.web.app/</td>
+                  <td>https://warehouse-management-23433.web.app/</td>
                 </tr>
                 <tr>
                   <td>03</td>
@@ -62,14 +62,14 @@ const Portfolio = () => {
                   <td>Node.js</td>
                   <td>Express.js</td>
                   <td>1.5 Month</td>
-                  <td>https://assignment-ten-2cf19.web.app/</td>
+                  <td>https://photographer-c8d8a.web.app/</td>
                 </tr>
                 <tr>
                   <td>05</td>
                   <td>Mongodb</td>
                   <td>none</td>
                   <td>1.5 Month</td>
-                  <td>https://assignment-ten-2cf19.web.app/</td>
+                  <td>https://ryans-computers.netlify.app</td>
                 </tr>
               </tbody>
             </table>
