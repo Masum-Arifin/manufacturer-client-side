@@ -1,0 +1,74 @@
+[
+    {
+        "name": "RAM 16GB (DDR 4)",
+        "body": "Meets Demanding Standards for New-Generation Platforms, Complies with JEDEC standards, Supports Intel Skylake-X and Kaby Lake-X CPU, Power supply: VDD and VDDQ = 1.2V+-0.06V, DRAM activation power supply: VPP= 2.5V (+0.25V / -0.125V), DRAM spec/VCC: DDR4 STD 1.2V",
+        "img": "https://i.ibb.co/tCrCyws/001-removebg-preview.png",
+        "price": 3350,
+        "min": 80,
+        "available": 500
+    },
+    {
+        "name": "CPU Cooler (Air)",
+        "body": "92 x 25 mm inverted fan offers optimal airflow while generating low noise, Radial aluminum heatsink for excellent cooling performance, Push pins for simple and easy installation",
+        "img": "https://i.ibb.co/b5z091R/ux20001-removebg-preview.png",
+        "price": 350,
+        "min": 100,
+        "available": 5000
+    },
+    {
+        "name": "Socket DDR3 Mainboard",
+        "body": "Brand - Biostar, Model - Biostar H81MHV3, Chipset Brand - Intel, Chipset - Intel H81, CPU Sockets - LGA1150, Supported CPU - Intel Core i7 / i5 / i3 / Pentium Processors, Generation - 4th, Memory Type - DDR3, Memory MHz - 1600/ 1333/ 1066MHz, Memory Channel - Dual, Memory Slot - 2, Memory Max. - 16GB, Optane Memory Support - No,",
+        "img": "https://i.ibb.co/zJXkDDt/72fb1803-99c8-43e0-9416-c1017d14c391-3123b2a79ac99b95b7fa267f9768e31e.png",
+        "price": 6000,
+        "min": 50,
+        "available": 1000
+    },
+    {
+        "name": "CV650 650 PS",
+        "body": "CV Series Is 80 PLUS Bronze Certified, Providing Up To 88% Efficiency For Less Heat And Lower Energy Costs. Like All CORSAIR Power Supplies, The CV Series Does Exactly What It Says It Does: Deliver Continuous Power At Full Capacity,A 120mm Thermally Controlled Low-Noise Cooling Fan Only Spins At High Speed When Your Power Supply Is Under Heavy Stress.",
+        "img": "https://i.ibb.co/gjLsmmB/rm750-500x500-removebg-preview.png",
+        "price": 5700,
+        "min": 150,
+        "available": 8000
+    },
+    {
+        "name": "128GB M.2 SSD",
+        "body": "Western Digital 120GB M.2 SSDs boost the everyday computing experience in your desktop or laptop desktop PC for fast performance and reliability.You can browse the web, play a game, or simply start your system in a flash.It is  the lowest power consuming drives in the industry with less power used in your laptop runs longer.",
+        "img": "https://i.ibb.co/SfVJT6R/green-1tb-sata-02-500x500-removebg-preview.png",
+        "price": 3200,
+        "min": 250,
+        "available": 6000
+    },
+    {
+        "name": "500GB HDD",
+        "body": "Western Digital 120GB M.2 HDD is help to keep your data safe from loss in the case of accidental bumps and drops, using no moving parts. This HDD are available in 2.5” 7mm and M.2 2280 models for simple, worry-free upgrading.In this hdd, it provides 120GB capacity with SATA 6Gb/s interface with 03 years warranty.",
+        "img": "https://i.ibb.co/DgS3Lym/toshiba-mg06aca10te-10tb-hard-disk-hdd-removebg-preview.png",
+        "price": 2900,
+        "min": 130,
+        "available": 3500
+    },
+    {
+        "name": "Core™ i5 1150",
+        "body": "Intel® Wi-Fi 6 (Gig+) enabled PCs and wireless networks deliver a generational advance in Wi-Fi performance, traffic management, improved latency, interference avoidance and enhanced security for best-in-class1 connectivity.",
+        "img": "https://i.ibb.co/kgCP9V4/s-l400-removebg-preview.png",
+        "price": 19000,
+        "min": 30,
+        "available": 1500
+    },
+    {
+        "name": "Ryzen™ 5 5600X",
+        "body": "Windows 11 - 64-Bit Edition, Windows 10 - 64-Bit Edition RHEL x86 64-Bit.Ubuntu x86 64-Bit.*Operating System (OS) support will vary by manufacturer. AMD Zen 3 Core  Architecture,AMD StoreMI Technology,AMD Ryzen™ Master Utility,AMD Ryzen™ VR-Ready Premium",
+        "img": "https://i.ibb.co/LPfncFz/processor.webp",
+        "price": 25000,
+        "min": 45,
+        "available": 1000
+    },
+    {
+        "name": "GIGABYTE GT 730",
+        "body": "GIGABYTE GeForce GT 730 features with an active fansink cooler, which forces air through a heatsink in order to dissipate heat from the GPU. Because, In this GIGABYTE GeForce GT 730 Graphics Card, the active fansink coolers recirculate the exhaust inside the case, this GeForce GT 730 Graphics Card is best used with cases that have adequate ventilation. You can enjoy this GIGABYTE GeForce GT 730 Graphics Card with 02 Years Warranty.",
+        "img": "https://i.ibb.co/ZV1VS3W/how-to-install-graphics-card-900x506-removebg-preview.png",
+        "price": 45000,
+        "min": 30,
+        "available": 900
+    }
+]
