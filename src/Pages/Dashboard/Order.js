@@ -19,7 +19,7 @@ const Order = () => {
       // get email by user
 
       const email = user.email;
-      const url = `https://young-reaches-95412.herokuapp.com/orderss?email=${email}`;
+      const url = `https://manufacturer-server-side-self.vercel.app/orderss?email=${email}`;
       try {
         const { data } = await axios.get(url, {
           headers: {
@@ -36,7 +36,7 @@ const Order = () => {
     };
     // must call function
     getItems();
-  }, [user]);
+  }, [user, navigate, items]);
   // --------------------
   const [orders, setOrders] = useOrder([]);
 
@@ -45,7 +45,7 @@ const Order = () => {
     const proceed = window.confirm("Sir, Are you sure ?");
     if (proceed) {
       // console.log('deleted',id);
-      const url = `https://young-reaches-95412.herokuapp.com/orders/${id}`;
+      const url = `https://manufacturer-server-side-self.vercel.app/orders/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -72,6 +72,7 @@ const Order = () => {
                 <th>product name</th>
                 <th>email</th>
                 <th>amount</th>
+                <th>image</th>
                 <th>payment status</th>
               </tr>
             </thead>
@@ -82,6 +83,9 @@ const Order = () => {
                   <td>{item.name}</td>
                   <td>{item.email}</td>
                   <td>{item.price}</td>
+                  <td>
+                    <img className="w-24" src={item.img} alt="" />
+                  </td>
                   <td>
                     <button className="btn btn-xs  btn-success uppercase mr-2">
                       payment

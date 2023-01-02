@@ -9,16 +9,16 @@ const Booking = () => {
   const [parts, setParts] = useState([]);
   const [user] = useAuthState(auth);
   useEffect(() => {
-    fetch(`https://young-reaches-95412.herokuapp.com/parts/${id}`)
+    fetch(`https://manufacturer-server-side-self.vercel.app/parts/${id}`)
       .then((res) => res.json())
       .then((data) => setParts(data));
   }, [id]);
-
   // set price per product by her quantity
-  const [price, setPrice] = useState([]);
+  const [price, setPrice] = useState(0);
   const quantityRef = useRef();
   const quantityKeyUp = (e) => {
     const quantity = quantityRef.current.value;
+    console.log(quantity);
     if (parts.min <= quantity && parts.available >= quantity) {
       const money = parts.price;
       const newPrice = quantity * money;
@@ -36,6 +36,7 @@ const Booking = () => {
   const handleOrder = (e) => {
     e.preventDefault();
     // toke value
+    const img = parts.img;
     const name = e.target.name.value;
     const username = e.target.username.value;
     const email = e.target.email.value;
@@ -44,10 +45,19 @@ const Booking = () => {
     const phone = e.target.phone.value;
     const address = e.target.address.value;
 
-    const orders = { name, username, email, price, quantity, phone, address };
+    const orders = {
+      name,
+      img,
+      username,
+      email,
+      price,
+      quantity,
+      phone,
+      address,
+    };
 
     // send data to the server
-    fetch("https://young-reaches-95412.herokuapp.com/orders", {
+    fetch("https://manufacturer-server-side-self.vercel.app/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -56,6 +66,7 @@ const Booking = () => {
     })
       .then((res) => res.json())
       .then((data) => {
+        console.log(data);
         e.target.reset();
       });
   };
@@ -104,14 +115,11 @@ const Booking = () => {
               placeholder="Total 000 tk"
               name="price"
               value={price}
-              readOnly
-              disabled
-              required
             />
             <br />
 
             <input
-              onKeyUp={quantityKeyUp}
+              onChange={quantityKeyUp}
               ref={quantityRef}
               type="number"
               className="font-bold input input-bordered input-info w-full max-w-xs mb-2"

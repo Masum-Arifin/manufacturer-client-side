@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import HandelAdmin from "../Dashboard/HandelAdmin";
 
 const MakeAdmin = () => {
-  // const {data} = useQuery('users', () => fetch('https://young-reaches-95412.herokuapp.com/users').then(res => res.json()))
+  // const {data} = useQuery('users', () => fetch('https://manufacturer-server-side-self.vercel.app/users').then(res => res.json()))
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch("https://young-reaches-95412.herokuapp.com/users")
+    fetch("https://manufacturer-server-side-self.vercel.app/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);

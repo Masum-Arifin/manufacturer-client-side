@@ -9,7 +9,7 @@ const ManageProducts = () => {
     const proceed = window.confirm("Sir, Are you sure ?");
     if (proceed) {
       console.log("deleted", id);
-      const url = `https://young-reaches-95412.herokuapp.com/parts/${id}`;
+      const url = `https://manufacturer-server-side-self.vercel.app/parts/${id}`;
       fetch(url, {
         method: "DELETE",
       })

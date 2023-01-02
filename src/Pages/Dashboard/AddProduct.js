@@ -16,7 +16,7 @@ const AddProduct = () => {
     console.log(products);
 
     // // send data to the server
-    fetch("https://young-reaches-95412.herokuapp.com/parts", {
+    fetch("https://manufacturer-server-side-self.vercel.app/parts", {
       method: "POST",
       headers: {
         "content-type": "application/json",

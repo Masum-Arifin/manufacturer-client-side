@@ -6,7 +6,7 @@ const useToken = (user) => {
     const email = user?.user?.email;
     const currentUser = { email: email };
     if (email) {
-      fetch(`https://young-reaches-95412.herokuapp.com/users/${email}`, {
+      fetch(`https://manufacturer-server-side-self.vercel.app/users/${email}`, {
         method: "PUT",
         headers: {
           "content-type": "application/json",

@@ -6,12 +6,15 @@ const HandelAdmin = ({ user, index }) => {
   const { email, role, _id } = user;
 
   const makeAdmin = () => {
-    fetch(`https://young-reaches-95412.herokuapp.com/users/admin/${email}`, {
-      method: "PUT",
-      headers: {
-        authorization: `Bearer ${localStorage.getItem("accessToken")}`,
-      },
-    })
+    fetch(
+      `https://manufacturer-server-side-self.vercel.app/users/admin/${email}`,
+      {
+        method: "PUT",
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+        },
+      }
+    )
       .then((res) => {
         if (res.status === 403) {
           toast.error("Failed to Make an admin");

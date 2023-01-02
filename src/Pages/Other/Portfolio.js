@@ -9,11 +9,7 @@ const Portfolio = () => {
       </h1>
 
       <div className="mx-auto text-center">
-        <img
-          className="mx-auto w-96 "
-          src={portfolioPic}
-          alt=""
-        />
+        <img className="mx-auto w-96 " src={portfolioPic} alt="" />
         <h1 className="text-2xl font-extraBold mt-8 uppercase">
           MD Abdullah al Masum
         </h1>

@@ -4,7 +4,7 @@ import randomUser from "../../images/favicon.png";
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("https://young-reaches-95412.herokuapp.com/review")
+    fetch("https://manufacturer-server-side-self.vercel.app/review")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

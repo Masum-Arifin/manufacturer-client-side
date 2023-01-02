@@ -53,7 +53,7 @@ const Parts = () => {
               <div className="text-center">
                 <button
                   onClick={() => navigateToBooking(part._id)}
-                  className="btn btn-primar"
+                  className="btn "
                 >
                   BOOKING
                 </button>
